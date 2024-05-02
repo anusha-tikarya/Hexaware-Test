@@ -77,7 +77,7 @@ INSERT INTO Applications (application_id,job_id, applicant_id, application_date,
 (3,3, 3, '2023-04-03', 'I am eager to bring my expertise to your team as an Environmental Engineer.'),
 (4,4, 4, '2023-04-04', 'I am applying for the Backend Developer role to leverage my skills.'),
 (5,5, 1, '2023-04-05', 'I am also interested in the Software Engineer position at CodeCrafters.');
----- Task 4 : No Error
+---- Task 4 :: No Error
 ---Task5:
 SELECT Jobs.Job_id, COUNT(Applications.application_id) AS Application_Count
 FROM Jobs
